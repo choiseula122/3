@@ -1,0 +1,231 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  --rpx: 100vw / 360;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: calc(17 * var(--rpx));
+  position: relative;
+  width: calc(360 * var(--rpx));
+  height: calc(740 * var(--rpx));
+  margin: 0 auto;
+  padding: calc(481 * var(--rpx)) calc(31 * var(--rpx)) calc(74 * var(--rpx))
+    calc(31 * var(--rpx));
+  background: #ffffff;
+  overflow: hidden;
+}
+.frame-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: calc(17 * var(--rpx));
+  position: relative;
+  width: calc(278 * var(--rpx));
+}
+.frame-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: calc(10 * var(--rpx));
+  position: relative;
+  width: calc(205 * var(--rpx));
+  z-index: 1;
+}
+.welcome-message {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: calc(205 * var(--rpx));
+  height: calc(12 * var(--rpx));
+  color: #008ea5;
+  font-family: Pretendard, var(--default-font-family);
+  font-size: calc(12 * var(--rpx));
+  font-weight: 900;
+  line-height: calc(11.480191230773926 * var(--rpx));
+  text-align: center;
+  white-space: nowrap;
+  z-index: 2;
+}
+.frame-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: calc(10 * var(--rpx));
+  position: relative;
+  width: calc(247 * var(--rpx));
+  z-index: 3;
+}
+.opportunity-view {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: calc(247 * var(--rpx));
+  height: calc(12 * var(--rpx));
+  color: #008ea5;
+  font-family: Pretendard, var(--default-font-family);
+  font-size: calc(12 * var(--rpx));
+  font-weight: 900;
+  line-height: calc(11.480191230773926 * var(--rpx));
+  text-align: center;
+  white-space: nowrap;
+  z-index: 4;
+}
+.frame-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: calc(10 * var(--rpx));
+  position: relative;
+  min-width: 0;
+  z-index: 5;
+}
+.special-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: calc(278 * var(--rpx));
+  height: calc(12 * var(--rpx));
+  color: #008ea5;
+  font-family: Pretendard, var(--default-font-family);
+  font-size: calc(12 * var(--rpx));
+  font-weight: 900;
+  line-height: calc(11.480191230773926 * var(--rpx));
+  text-align: center;
+  white-space: nowrap;
+  z-index: 6;
+}
+.frame-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: calc(10 * var(--rpx));
+  position: relative;
+  width: calc(193 * var(--rpx));
+  z-index: 7;
+}
+.sale-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: calc(193 * var(--rpx));
+  height: calc(12 * var(--rpx));
+  color: #008ea5;
+  font-family: Pretendard, var(--default-font-family);
+  font-size: calc(12 * var(--rpx));
+  font-weight: 900;
+  line-height: calc(11.480191230773926 * var(--rpx));
+  text-align: center;
+  white-space: nowrap;
+  z-index: 8;
+}
+.frame-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: calc(10 * var(--rpx));
+  position: relative;
+  width: calc(139 * var(--rpx));
+  z-index: 9;
+}
+.enjoyable-shopping {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: calc(139 * var(--rpx));
+  height: calc(12 * var(--rpx));
+  color: #008ea5;
+  font-family: Pretendard, var(--default-font-family);
+  font-size: calc(12 * var(--rpx));
+  font-weight: 900;
+  line-height: calc(11.480191230773926 * var(--rpx));
+  text-align: center;
+  white-space: nowrap;
+  z-index: 10;
+}
+.frame-7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: calc(10 * var(--rpx));
+  position: relative;
+  width: calc(211.33935546875 * var(--rpx));
+  height: calc(40.839900970458984 * var(--rpx));
+  padding: calc(12 * var(--rpx)) calc(80 * var(--rpx)) calc(12 * var(--rpx))
+    calc(80 * var(--rpx));
+  cursor: pointer;
+  background: #008ea5;
+  border: none;
+  z-index: 11;
+  border-radius: calc(20.419950485229492 * var(--rpx));
+}
+.browse {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: calc(51 * var(--rpx));
+  height: calc(16 * var(--rpx));
+  color: #ffffff;
+  font-family: Pretendard, var(--default-font-family);
+  font-size: calc(14.74281120300293 * var(--rpx));
+  font-weight: 900;
+  line-height: calc(15.296159744262695 * var(--rpx));
+  text-align: center;
+  white-space: nowrap;
+  z-index: 12;
+}
